@@ -13,7 +13,7 @@ function TestimonialsBox({ desc, image, name, postion }) {
         <div className="flex items-center gap-4 xs:w-[120%]">
           <div>
             <img
-              src={`/src/assets/imgesProject/images/${image}`}
+              src={image}
               alt="Profile one img"
               className="w-[50px] h-[50px] rounded-full object-contain"
             />

@@ -1,4 +1,5 @@
 import illustrationBg from '/src/assets/imgesProject/images/illustration-intro.png'
+import curvyDesktopBg from '/src/assets/imgesProject/images/bg-curvy-desktop.svg'
 function Landing() {
   return (
     <>
@@ -34,7 +35,7 @@ function Landing() {
         {/* Wave Background */}
         <div className="w-full h-[200px]">
           <img
-            src="/src/assets/imgesProject/images/bg-curvy-desktop.svg"
+            src={curvyDesktopBg}
             alt="Wave Background"
             className="w-full h-full"
           />

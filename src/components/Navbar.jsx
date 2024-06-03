@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
+import logoIcon from '/src/assets/imgesProject/images/logo.svg'
 function Navbar() {
   const headerRef = useRef();
 
@@ -25,7 +25,7 @@ function Navbar() {
         <div className="container mx-auto md:flex md:px-9 md:justify-between md:items-center flex-col sm:flex-row">
           <a href="#">
             <img
-              src="src/assets/imgesProject/images/logo.svg"
+              src={logoIcon}
               className="object-contain"
               alt="logo"
             />

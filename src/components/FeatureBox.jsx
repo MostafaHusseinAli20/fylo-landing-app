@@ -4,7 +4,7 @@ function FeatureBox({ title, icon, desc }) {
       <section>
         <div className="text-white element-center text-center">
           <img
-            src={`/src/assets/imgesProject/images/${icon}`}
+            src={icon}
             alt="icon one img"
             className="w-[80px] h-[80px] object-contain"
           />

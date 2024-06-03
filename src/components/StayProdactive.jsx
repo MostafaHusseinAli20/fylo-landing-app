@@ -1,4 +1,5 @@
 import StayProdactiveImg from "/src/assets/imgesProject/images/illustration-stay-productive.png";
+import arrowIcon from '/src/assets/imgesProject/images/icon-arrow.svg'
 function StayProdactive() {
   return (
     <>
@@ -38,7 +39,7 @@ function StayProdactive() {
             >
               See how Fylo works
               <img
-                src="/src/assets/imgesProject/images/icon-arrow.svg"
+                src={arrowIcon}
                 alt="arrow icon"
                 className="w-[20px] h-[20px] object-contain animate-[moveRight_1s_ease-in-out_infinite]"
               />

@@ -1,13 +1,15 @@
 import fyloImg from "/src/assets/imgesProject/images/logo.svg";
 import iconLocation from "/src/assets/imgesProject/images/icon-location.svg";
+import iconPhone from '/src/assets/imgesProject/images/icon-phone.svg'
+import iconEmail from '/src/assets/imgesProject/images/icon-email.svg'
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { useState } from "react";
 function Footer() {
     const [contact] = useState([
-        {icon: "icon-phone.svg" , text : "+1-543-123-4567"},
-        {icon: "icon-email.svg" , text : "example@fylo.com"},
+        {icon: iconPhone , text : "+1-543-123-4567"},
+        {icon: iconEmail , text : "example@fylo.com"},
     ]);
     const[links] = useState([
         "About Us",
@@ -57,7 +59,7 @@ function Footer() {
                 contact.map((contact , index) => (
                     <div key={index} className="flex items-center gap-3
                     mb-[15px] last-of-type:mb-0">
-                        <img src={`/src/assets/imgesProject/images/${contact.icon}`}
+                        <img src={contact.icon}
                          alt="Phone Icon" 
                          className="h-[18px] object-contain"/>
                          <p>{contact.text}</p>

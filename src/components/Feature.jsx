@@ -1,25 +1,28 @@
 import { useState } from "react";
 import FeatureBox from "./FeatureBox";
-
+import accessIcon from '/src/assets/imgesProject/images/icon-access-anywhere.svg'
+import iconSecurity from '/src/assets/imgesProject/images/icon-security.svg'
+import iconCollaboration from '/src/assets/imgesProject/images/icon-collaboration.svg'
+import iconAnyFile from '/src/assets/imgesProject/images/icon-any-file.svg'
 function Feature() {
   const [item] = useState([
     {
-      icon: "icon-access-anywhere.svg",
+      icon: accessIcon,
       title: "Access your files, anywhere",
       desc: "The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.",
     },
     {
-      icon: "icon-security.svg",
+      icon: iconSecurity,
       title: "Security you can trust",
       desc: "Factor authentication and user-controlled encryption are just a couple of the security feature we allow to help secure your files.",
     },
     {
-      icon: "icon-collaboration.svg",
+      icon: iconCollaboration,
       title: "Realtime collaboration",
       desc: "Securely share files and folders with friends, family and colleagues for live collabration. No email attachments required.",
     },
     {
-      icon: "icon-any-file.svg",
+      icon: iconAnyFile,
       title: "Store any type of file",
       desc: "Wather you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
     },
