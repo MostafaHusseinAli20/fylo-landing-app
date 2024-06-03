@@ -1,0 +1,29 @@
+[33mcommit 02fc1dd54033d99b023fdad0606d6f3570a0bcd4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Mostafa Hussein <mostdrsh54012@gmail.com>
+Date:   Tue Jun 4 02:50:05 2024 +0300
+
+    fix: responsive
+
+[33mcommit 14ef0c46210af26c1a3a3d6d83e9dc55dbcd608a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Mostafa Hussein <mostdrsh54012@gmail.com>
+Date:   Tue Jun 4 02:07:51 2024 +0300
+
+    fix: title app
+
+[33mcommit a738d1f60d01563c2fe34346a49579cbfa5458a6[m
+Author: Mostafa Hussein <mostdrsh54012@gmail.com>
+Date:   Tue Jun 4 02:04:58 2024 +0300
+
+    fix: logos
+
+[33mcommit 139b7611fd4f3c4fbdd58b38ed42d9130b409646[m
+Author: Mostafa Hussein <mostdrsh54012@gmail.com>
+Date:   Tue Jun 4 01:43:44 2024 +0300
+
+    add: deploy workflow
+
+[33mcommit 61a072f545b4f8ef7c025f50973e9283f265ca7d[m
+Author: Mostafa Hussein <mostdrsh54012@gmail.com>
+Date:   Tue Jun 4 01:39:14 2024 +0300
+
+    add: initial files
