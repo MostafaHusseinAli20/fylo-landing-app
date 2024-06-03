@@ -30,8 +30,10 @@ function Testimonials() {
     return ( 
         <>
             <section className="pb-[350px]">
-                <div className="container relative">
-                    <div className="absolute left-[20px] top-[-35px]">
+                <div className="container  relative">
+                    <div className="absolute
+                    xs:translate-x-[-40%]
+                    sm:translate-x-[180%] md:translate-x-[0%] left-[0px] md:left-[20px] top-[-35px]">
                         <img src={qoutesImg} alt="Qoutes Img" />
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 

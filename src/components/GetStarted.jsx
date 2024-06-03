@@ -3,8 +3,8 @@ function GetStarted() {
   return (
     <>
       <section className="container relative shadow-xl">
-        <div className="bg-[#1c2230] text-white absolute xs:left-[0%] sm:left-[10%] md:left-[10%] lg:left-[15%] xl:left-[25%]
-         translate-x-[-10%] top-[-150px] rounded-md element-center gap-3 w-[865px]
+        <div className="bg-[#1c2230] text-white absolute xs:left-[0%] sm:left-[15%] md:left-[10%] lg:left-[15%] xl:left-[25%]
+         xs:translate-x-[-15%] md:translate-x-[-10%] top-[-150px] rounded-md element-center gap-3 w-[865px]
          min-h-[275px] xs:max-w-96 md:max-w-full p-10 sm:max-w-full">
           <h3 className="font-semibold text-[25px] md:text-[35px]
           mb-3">{mainTitle}</h3>

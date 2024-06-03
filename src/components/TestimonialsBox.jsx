@@ -1,7 +1,9 @@
 function TestimonialsBox({ desc, image, name, postion }) {
   return (
     <>
-      <section className="text-white bg-[#21293c] rounded-md p-8 shadow-[8px_8px_1px_8px_#1c202c]">
+      <section className="text-white
+      xs:translate-x-[-17%] md:translate-x-[0%] sm:translate-x-[30%] bg-[#21293c] 
+      rounded-md p-8 shadow-[8px_8px_1px_8px_#1c202c]">
         <div>
           <p
             className="font-normal text-gray-100 text-sm 

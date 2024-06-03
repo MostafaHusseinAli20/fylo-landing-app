@@ -31,7 +31,8 @@ function Footer() {
         className="bg-[#0C1524] pt-[320px] md:pt-[200px]
             pb-[100px] text-white"
       >
-        <div className="container">
+        <div className="container
+        xs:translate-x-[-21%] sm:translate-x-[0%]">
           <a href="/">
             <img
               src={fyloImg}
@@ -41,13 +42,14 @@ function Footer() {
           </a>
             
           <div className=" flex flex-wrap justify-between flex-col md:flex-row">
-          <div className="flex gap-4 w-80 max-w-full pt-6">
+          <div className="flex gap-4 w-80 pt-6">
             <img
               src={iconLocation}
               alt="Location Icon"
               className="w-[18px] h-[18px] object-contain"
             />
-            <p className="font-normal text-sm tracking-[0.8px] text-gray-300">
+            <p className="font-normal text-sm tracking-[0.8px]
+            xs:w-[90%] text-gray-300">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Provident amet libero unde recusandae quaerat debitis vitae,
               excepturi fugiat ducimus.
