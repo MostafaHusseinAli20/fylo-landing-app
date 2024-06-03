@@ -1,15 +1,9 @@
 # Fylo dark theme landing page
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Links](#links)
-  - https://mostafahusseinali20.github.io/fylo-landing-app/
-- [My process](#my-process)
-  - [Built with](#built-with)
-
+ 
 ## Overview
 
+ - https://mostafahusseinali20.github.io/fylo-landing-app/
 
 ### Built with
 
